@@ -1,8 +1,8 @@
 package com.topcat.npclib.entity;
 
-import net.minecraft.server.v1_6_R2.EntityPlayer;
-import net.minecraft.server.v1_6_R2.Packet18ArmAnimation;
-import net.minecraft.server.v1_6_R2.WorldServer;
+import net.minecraft.server.v1_6_R3.EntityPlayer;
+import net.minecraft.server.v1_6_R3.Packet18ArmAnimation;
+import net.minecraft.server.v1_6_R3.WorldServer;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -13,7 +13,7 @@ import org.bukkit.inventory.PlayerInventory;
 
 import com.topcat.npclib.nms.NPCEntity;
 import java.lang.reflect.Field;
-import net.minecraft.server.v1_6_R2.EntityHuman;
+import net.minecraft.server.v1_6_R3.EntityHuman;
 
 public class HumanNPC extends NPC {
 
